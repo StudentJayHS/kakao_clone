@@ -90,7 +90,7 @@ body {
 
 .playlist_list {
     width: 580px;
-    height: 700px;
+    height: 715px;
     display: flex;
     flex-direction: column;
     justify-content: center;
