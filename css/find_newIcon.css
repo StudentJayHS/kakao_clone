@@ -1,0 +1,9 @@
+.new_icons > span:first-child {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: red;
+    top: 100px;
+    left: 265px;
+  }

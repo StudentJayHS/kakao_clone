@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+}
+
+.contracts > a > i {
+    margin: 20px;
+}
+
+.contracts_title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contracts_title > div:first-child {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contracts_title > div:last-child {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.contracts_function {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contracts_function > i {
+    margin: 40px 20px 0px 20px;
+    cursor: pointer;
+}
+
+.contracts_list {
+    border: 1px solid;
+    border-radius: 50px;
+    margin-top: 20px;
+    height: 70px;
+    line-height: 70px;
+    background-color: pink;
+}
+
+.noneList {
+    border: none;
+    margin: 0;
+}
+
+.select > div {
+    width: 470px;
+    border-bottom: 1px solid;
+}
+
+.contracts_list_select {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.contracts_list_select > div {
+    margin-left: 30px;
+}
+
+.contracts_list_select > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.contracts_listBox {
+    height: 320px;
+    border-radius: 25px;
+    margin-top: 40px;
+    background-color: pink;
+    overflow-y: scroll;
+}
+
+.contracts_listBox::-webkit-scrollbar {
+    display: none;
+}
+
+.no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: yellow;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+  }
+  
+  @media screen and (max-width: 645px) {
+    .no-mobile {
+      display: none;
+    }
+  }

@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNzExMDJfMjAg/MDAxNTA5NTY4NDA1Nzk2.mGn3f1awFXeOY2mQrfvVMEjtPMUDuaNbBK1VAWR3YJsg.P3dyJsqTXPkkvSWuCBliSMq3FWW-WR1JJFK0CBTl8Xkg.JPEG.1004nnnnnn/%EC%95%84%EC%9D%B4%ED%8F%B0%EA%B3%A0%ED%99%94%EC%A7%88_%ED%92%8D%EA%B2%BD%EB%B0%B0%EA%B2%BD%ED%99%94%EB%A9%B41.jpg?type=w800");
+    height: 900px;
+}
+
+.back_button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.find {
+    display: flex;
+    justify-content: center;
+}
+
+.find_qrCode {
+    width: 300px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.scanning {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    width: 100%;
+    height: 200px;
+}
+
+.scanning_box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+.boxes {
+    width: 50px;
+    height: 50px;
+}
+
+.box_two {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box_three {
+    display: flex;
+    align-items: flex-end;
+}
+
+.box_four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.one {
+    border-top: 7px solid pink;
+    border-left: 7px solid pink;
+}
+
+.two {
+    border-top: 7px solid pink;
+    border-right: 7px solid pink;
+}
+
+.three {
+    border-left: 7px solid pink;
+    border-bottom: 7px solid pink;
+}
+
+.four {
+    border-bottom: 7px solid pink;
+    border-right: 7px solid pink;
+}
+
+.function_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+.i_button {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: white;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+    line-height: 90px;
+    box-shadow: 0px 1px 5px black;
+    cursor: pointer;
+}
+
+.i_button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: yellow;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+  }
+  
+  @media screen and (max-width: 645px) {
+    .no-mobile {
+      display: none;
+    }
+  }
+  

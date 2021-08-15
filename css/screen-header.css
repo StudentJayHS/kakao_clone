@@ -1,0 +1,8 @@
+.screen-header__icons > span:nth-child(3) > span:first-child {
+    position: absolute;
+    top: 50px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: red;
+  }
